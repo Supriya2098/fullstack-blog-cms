@@ -1,0 +1,144 @@
+.post-detail-page {
+  padding-bottom: 3rem;
+}
+
+.post-hero {
+  position: relative;
+  height: min(380px, 45vh);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border-radius: 0 0 calc(var(--radius) + 8px) calc(var(--radius) + 8px);
+}
+
+.post-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(232, 244, 252, 0.95) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 100%
+  );
+}
+
+.post-hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-family: var(--mono);
+}
+
+.post-hero-content h1 {
+  color: var(--text);
+  text-shadow: none;
+}
+
+.post-hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.author-avatar,
+.comment-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--gradient);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.post-detail-body {
+  max-width: 760px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-content {
+  font-size: 1.08rem;
+  line-height: 1.85;
+  white-space: pre-wrap;
+  margin-bottom: 2rem;
+}
+
+.comments-section h2 {
+  font-size: 1.35rem;
+}
+
+.empty-comments {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.comment-item {
+  padding: 1.15rem;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.comment-meta {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.comment-text {
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+
+.btn-sm {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+}
+
+.login-prompt {
+  color: var(--text-muted);
+}
+
+.comment-form {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}

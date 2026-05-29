@@ -1,0 +1,147 @@
+.auth-page {
+  min-height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.auth-page-inner {
+  width: 100%;
+  max-width: 440px;
+}
+
+.auth-page-wide .auth-page-inner {
+  max-width: 920px;
+}
+
+.auth-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.auth-brand-panel {
+  padding: 2rem;
+  background: var(--surface);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) + 6px);
+  box-shadow: var(--shadow);
+}
+
+.auth-brand-panel h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.auth-brand-panel p {
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.auth-team-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.auth-team-list li {
+  padding: 0.3rem 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.auth-team-list strong {
+  color: var(--text);
+}
+
+.auth-tag {
+  color: var(--accent);
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  font-family: var(--mono);
+}
+
+.auth-back {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.auth-subtitle {
+  color: var(--text-muted);
+  margin: -0.25rem 0 1.25rem;
+}
+
+.auth-card {
+  padding: 1.75rem;
+}
+
+.auth-submit {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.password-wrap {
+  position: relative;
+}
+
+.password-wrap input {
+  padding-right: 3.5rem;
+}
+
+.toggle-pass {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-family: var(--mono);
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 1.25rem;
+  color: var(--text-muted);
+}
+
+.credentials-hint {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.credentials-hint h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-family: var(--mono);
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.credentials-hint p {
+  margin: 0.2rem 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-family: var(--mono);
+}
+
+.cred-row:hover p {
+  color: var(--accent) !important;
+}
+
+@media (max-width: 768px) {
+  .auth-split {
+    grid-template-columns: 1fr;
+  }
+}

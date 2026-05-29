@@ -46,7 +46,7 @@ npm run db:seed
 npm run dev
 ```
 
-Backend runs at **http://localhost:5000**
+Backend runs at **https://fullstack-blog-cms--supriyakusuma54.replit.app/api/health**
 
 ### 3. Frontend setup (new terminal)
 
@@ -56,7 +56,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs at **http://localhost:5173**
+Frontend runs at **https://supriya2098.github.io/fullstack-blog-cms/**
 
 ## Demo Accounts
 

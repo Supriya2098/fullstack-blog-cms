@@ -134,7 +134,5 @@ curl -X POST http://localhost:5000/api/auth/login \
 
 ## Author
 
-Your Name — Internship Full Stack Development Task
-=======
-# fullstack-blog-cms
->>>>>>> b0ed1217f471847b377b942c613d4f02329dcb46
+Name: Supriya Kusuma
+mail : supriyakusuma0905@gmail.com

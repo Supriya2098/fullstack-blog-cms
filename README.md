@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Blog CMS — Full Stack Development (Week 3 & 4)
 
 A full-stack blog and content management system built for the internship task. Users can register, log in, create posts, and comment on articles.
